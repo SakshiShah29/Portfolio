@@ -1,8 +1,12 @@
+import { Flex, Text } from '@chakra-ui/react'
 import React from 'react'
-
-const GuestMessage = () => {
+import Blockies from "react-blockies";
+const GuestMessage = (props :any) => {
   return (
-   <div></div>
+   <Flex>
+<Blockies seed="Jeremy"/>
+<Text>{props.address}</Text>
+   </Flex>
   )
 }
 

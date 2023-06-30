@@ -64,13 +64,14 @@ const Animation = () => {
            
           </ul>
           
-          <h2
+          <h4
             ref={ref}
             className=" top-20 absolute -z-10 text-6xl font-bold text-dark-teal"
             id="val"
           >
-            Sakshi Shah
-          </h2>
+            Hey! I am Sakshi Shah
+          </h4>
+          
           <Image
             id="hill1"
             className="-z-30 absolute top-0 left-0 w-full pointer-events-none"
@@ -121,18 +122,7 @@ const Animation = () => {
           />
         </div>
       </section>
-      <section className="h-96 w-full top-96">
-        <div className="z-70 top-96 bg-white">
-          <h3 className="text-3xl py-1">About Myself</h3>
-          <p className="text-md py-2 leading-8 text-gray-800">
-            I have been in the <span className="text-teal-500">frontend</span>{" "}
-            space for about 3 years now, I have created a lot of frontend
-            projects that helped me improve my skills. Currently delving into
-            the <span className="text-teal-500">web3 space</span> and it is
-            pretty interesting working with dapps.
-          </p>
-        </div>
-      </section>
+      
     </div>
   );
 };
