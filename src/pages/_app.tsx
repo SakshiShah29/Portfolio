@@ -1,4 +1,4 @@
-import '@/styles/globals.css'
+import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import {ParallaxProvider} from "react-scroll-parallax";
 import '@rainbow-me/rainbowkit/styles.css';

@@ -71,7 +71,10 @@ const Animation = () => {
           >
             Hey! I am Sakshi Shah
           </h4>
-          
+          <Image 
+          className="-z-30 flex justify-center items-center mr-50 w-20 h-20 rounded-full"
+          src={profile}
+          alt="hill"></Image>
           <Image
             id="hill1"
             className="-z-30 absolute top-0 left-0 w-full pointer-events-none"

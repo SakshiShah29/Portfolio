@@ -1,7 +1,7 @@
 import { Flex, Text } from '@chakra-ui/react'
 import React from 'react'
 import Blockies from "react-blockies";
-const GuestMessage = (props :any) => {
+const GuestMessage = (props) => {
   return (
    <Flex>
 <Blockies seed="Jeremy"/>

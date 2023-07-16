@@ -4,32 +4,16 @@ import {AiFillTwitterCircle, AiFillLinkedin,AiFillMail} from "react-icons/ai"
 import Image from 'next/image';
 
 import { useEffect, useRef } from 'react';
-import Animation from '../../components/animation';
+// import Animation from '../../components/animation';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import Guestbook from '../../components/Guestbook';
+import About from '../../components/About';
 // import Guestbook from '../../components/Guestbook';
 
 
 export default function Home() {
 
 
-  // // let text1 = document.getElementById("val");
-  // let leaf=document.getElementById("leaf");
-  // let hill1=document.getElementById("hill1");
-  // let hill4=document.getElementById("hill4");
-  // let hill5=document.getElementById("hill5");
-  // const [isBrowser, setIsBrowser] = useState(false);
-
-// useEffect(() => {
-//   window.addEventListener("scroll",()=>{
-//     let value=window.scrollY;
-//     if (document.activeElement === ref.current) {
-//       ref.current.style.marginTop=value * 2.5+'px';
-//     } else {
-//       console.log('element does NOT have focus');
-//     }
-//   })
-// }, []);
 
   
 
@@ -44,10 +28,13 @@ export default function Home() {
       
       <main className='  bg-dark-teal relative h-screen'>
       <ConnectButton/>
-     <Animation/>
-      </main>
-      <body className=' z-50'>
-     <Guestbook/></body>
+     
+      
+      <body className=' bg-dark-teal z-50'>
+
+     <About/>
+     </body>
+     </main>
      
     </>
   )
